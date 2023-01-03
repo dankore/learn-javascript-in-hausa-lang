@@ -1,14 +1,6 @@
-<style>
-  .banner {
-    border: 1px solid #ccc;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-    padding: 20px;
-  }
-</style>
-
-<img src="banner-learn-js-in-hausa.png" alt="Banner" class="banner">
-
 # Learn JavaScript in Hausa
+
+![Banner](banner-learn-js-in-hausa.png)
 
 This repository contains materials for learning JavaScript in the Hausa language by Adamu Muhammad Dankore. It includes explanations and examples of various JavaScript concepts, as well as exercises and projects to help you practice and apply what you have learned.
 
