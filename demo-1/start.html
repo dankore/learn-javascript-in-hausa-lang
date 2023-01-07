@@ -5,9 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo of JavaScript Usage with HTML</title>
+    <style>
+      body {
+        background-color: powderblue;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        color: cornflowerblue;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        height: 50px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 25px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: deepskyblue;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+      }
+
+      h1 {
+        animation: fadein 2s;
+      }
+
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 20px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .card {
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 20px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card h3 {
+        font-size: 22px;
+        margin: 10px;
+      }
+
+      .card p {
+        font-size: 16px;
+        color: grey;
+        margin: 10px;
+      }
+    </style>
   </head>
   <body>
     <h1>Hello World!</h1>
-    <button>Click me!</button>
+    <button onclick="changeText()">Click me!</button>
+    <div class="container">
+      <div class="card">
+        <img src="https://picsum.photos/300/200" alt="Placeholder image" />
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies, purus eu tristique tincidunt, ligula purus malesuada libero, quis accumsan ligula lacus in ipsum.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/300/200" alt="Placeholder image" />
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies, purus eu tristique tincidunt, ligula purus malesuada libero, quis accumsan ligula lacus in ipsum.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/300/200" alt="Placeholder image" />
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies, purus eu tristique tincidunt, ligula purus malesuada libero, quis accumsan ligula lacus in ipsum.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/300/200" alt="Placeholder image" />
+        <h3>Card Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies, purus eu tristique tincidunt, ligula purus malesuada libero, quis accumsan ligula lacus in ipsum.</p>
+      </div>
+    </div>
   </body>
 </html>
