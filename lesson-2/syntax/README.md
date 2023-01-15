@@ -1,1 +1,35 @@
-<div><p>Here is the outline for the lesson on Basic JavaScript syntax:</p><ol><li><a href="#variables">Variables</a><ul><li>Understanding variable declaration and assignment</li><li>Variable scope and hoisting</li><li>Constants</li></ul></li><li><a href="#data-types">Data Types</a><ul><li>Primitive data types (string, number, boolean, etc.)</li><li>Complex data types (arrays, objects)</li><li>typeof operator</li></ul></li><li><a href="#operators">Operators</a><ul><li>Arithmetic operators (+, -, *, /, %)</li><li>Comparison operators (==, ===, !=, !==, &gt;, &lt;, &gt;=, &lt;=)</li><li>Logical operators (&amp;&amp;, ||, !)</li><li>Bitwise operators</li></ul></li><li><a href="#control-structures">Control Structures</a><ul><li>Conditional statements (if, else, else if)</li><li>Loops (for, while, do-while)</li><li>switch-case</li></ul></li><li><a href="#functions">Functions</a><ul><li>Defining and calling functions</li><li>Function parameters and arguments</li><li>Anonymous functions and arrow functions</li></ul></li><li><a href="#objects">Objects</a><ul><li>Understanding object literals</li><li>Creating objects using constructors</li><li>Adding and removing properties from objects</li><li>Understanding the prototype chain</li></ul></li><li><a href="#arrays">Arrays</a><ul><li>Creating and initializing arrays</li><li>Accessing and modifying array elements</li><li>Array methods (forEach, map, filter, etc.)</li></ul></li><li><a href="#summary">Summary</a><ul><li>Review of key concepts</li><li>Additional resources for further learning</li></ul></li></ol><p>Note that the links are added for each topic, the links are not active, you should use this as a guide to create the links.</p></div>
+# Here is the outline for the lesson on Basic JavaScript syntax:
+
+1. [Variables](variables.md)
+   - Understanding variable declaration and assignment
+   - Variable scope and hoisting
+   - Constants
+2. [Data Types](data-types.md)
+   - Primitive data types (string, number, boolean, etc.)
+   - Complex data types (arrays, objects)
+   - typeof operator
+3. [Operators](operators.md)
+   - Arithmetic operators (+, -, *, /, %)
+   - Comparison operators (==, ===, !=, !==, >, <, >=, <=)
+   - Logical operators (&&, ||, !)
+   - Bitwise operators
+4. [Control Structures](control-structures.md)
+   - Conditional statements (if, else, else if)
+   - Loops (for, while, do-while)
+   - switch-case
+5. [Functions](functions.md)
+   - Defining and calling functions
+   - Function parameters and arguments
+   - Anonymous functions and arrow functions
+6. [Objects](objects.md)
+   - Understanding object literals
+   - Creating objects using constructors
+   - Adding and removing properties from objects
+   - Understanding the prototype chain
+7. [Arrays](arrays.md)
+   - Creating and initializing arrays
+   - Accessing and modifying array elements
+   - Array methods (forEach, map, filter, etc.)
+8. [Summary](summary.md)
+   - Review of key concepts
+   - Additional resources for further learning
