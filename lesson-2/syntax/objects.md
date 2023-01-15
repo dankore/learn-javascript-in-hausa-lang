@@ -1,4 +1,4 @@
-<div class="markdown prose w-full break-words dark:prose-invert dark"><p>Sure, here's more information on objects in JavaScript, along with examples of how to use them:</p><ol start="7"><li>Objects<ul><li>Understanding object literals:</li></ul><pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre-wrap hljs language-javascript"><span class="hljs-keyword">let</span> person = {
+<div class="markdown prose w-full break-words dark:prose-invert dark"><p>Objects in JavaScript, along with examples of how to use them:</p><ol start="7"><li>Objects<ul><li>Understanding object literals:</li></ul><pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre-wrap hljs language-javascript"><span class="hljs-keyword">let</span> person = {
     <span class="hljs-attr">name</span>: <span class="hljs-string">"John"</span>,
     <span class="hljs-attr">age</span>: <span class="hljs-number">30</span>,
     <span class="hljs-attr">isStudent</span>: <span class="hljs-literal">false</span>
