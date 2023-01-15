@@ -1,4 +1,4 @@
-<div class="markdown prose w-full break-words dark:prose-invert dark"><p>Functions in JavaScript, along with examples of how to use them:</p><ol start="6"><li>Functions<ul><li>Defining and calling functions:</li></ul><pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre-wrap hljs language-scss">function <span class="hljs-built_in">sayHello</span>() {
+<div class="markdown prose w-full break-words dark:prose-invert dark"><p>Functions in JavaScript, along with examples of how to use them:</p><ol start="5"><li>Functions<ul><li>Defining and calling functions:</li></ul><pre><div class="bg-black mb-4 rounded-md"><div class="p-4 overflow-y-auto"><code class="!whitespace-pre-wrap hljs language-scss">function <span class="hljs-built_in">sayHello</span>() {
     console<span class="hljs-selector-class">.log</span>("Hello!");
 }
 <span class="hljs-built_in">sayHello</span>(); <span class="hljs-comment">// Output: "Hello!"</span>

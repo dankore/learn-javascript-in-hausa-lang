@@ -2,7 +2,7 @@
 
 1. [Variables](variables.md)
    - Understanding variable declaration and assignment
-   - Variable scope and hoisting
+   - Variable [scope](scope.md) and [hoisting](hoisting.md)
    - Constants
 2. [Data Types](data-types.md)
    - Primitive data types (string, number, boolean, etc.)
